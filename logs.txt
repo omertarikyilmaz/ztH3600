@@ -1,0 +1,5 @@
+Date and Time              | Up Time                           |RAM | CPU | SSID1          |CH1 | SSID5        |CH5 | DL/UL5 | DL/UL1
+
+2024-09-16 13:36:47.584382 | 0 g�n1 saatler 11 dakika 52 saniye | 23% | 0% | SSID1 (2.4GHz) | 11 | SSID5 (5GHz) | 52 | 0/0 | 0/0
+2024-09-16 13:37:44.340577 | 0 g�n1 saatler 12 dakika 49 saniye | 23% | 2% | SSID1 (2.4GHz) | 11 | SSID5 (5GHz) | 52 | 0/0 | 0/0
+2024-09-16 13:38:41.087937 | 0 g�n1 saatler 13 dakika 46 saniye | 23% | 2% | SSID1 (2.4GHz) | 11 | SSID5 (5GHz) | 52 | 0/0 | 0/0
