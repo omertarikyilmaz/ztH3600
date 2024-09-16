@@ -4,10 +4,10 @@ from selenium.webdriver.chrome.service import Service
 import time
 from datetime import datetime
 
-output_file = r"C:\Users\owery\OneDrive\Masaüstü\Python\ztH3600\logs.txt"
+output_file = r"C:\Users\owery\OneDrive\Masaüstü\Python\zteH3600\logs.txt"
 
 def write_to_file(data):
-    with open(output_file, 'a') as file:
+    with open(output_file, 'a', encoding='utf-8') as file:
         file.write(data)
 
 def OPENINTERFACE(driver):
@@ -116,10 +116,8 @@ def main():
         download5 = DOWNLOAD_DATA5(driver)
 
         time_data = datetime.now()
-        write_to_file(f"\n{time_data} | {uptime} | {ram_usage} | {cpu_usage} | {ssid1} | {ch1data} | {ssid5} | {ch5data} | {download5} | {download1}")
+        write_to_file(f"\n{time_data} | {uptime} | {ram_usage} | {cpu_usage} | {ssid1} | {ch1data}  | {ssid5} |{ch5data} | {download5}    | {download1}")
     
-    except:
-        print("Error")
     
     finally:
         driver.quit()
